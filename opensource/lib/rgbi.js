@@ -18,7 +18,7 @@
  * @property {number} i A number from 0 to 1.
  */
 
-var RGBI = {}
+var RGBI = {};
 
 (function(){
 	function interpretRgbiArgs(r,g,b,i){
@@ -111,6 +111,7 @@ var RGBI = {}
 			res.g = (code.g * 127) * (code.i + 1)
 			res.b = (code.b * 127) * (code.i + 1)
 		}
+		return res;
 	}
 
 	/**
