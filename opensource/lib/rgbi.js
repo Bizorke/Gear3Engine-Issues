@@ -31,8 +31,8 @@ var RGBI = {};
 			}
 			else if(typeof r == "number"){
 				i = r & 1 ? 1 : 0;
-				g = r & 2 ? 1 : 0;
-				b = r & 4 ? 1 : 0;
+				b = r & 2 ? 1 : 0;
+				g = r & 4 ? 1 : 0;
 				r = r & 8 ? 1 : 0;
 			}
 			else if(!isNaN("0x" + r)){
